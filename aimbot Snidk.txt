@@ -1,0 +1,128 @@
+# Combined Free Fire Configuration for Mocha VNC Lite
+
+# Device Information
+phone.brand_model=General iOS Device
+os.version=iOS 14.0 or later
+hardware.config=A-Series Processor, 4GB+ RAM, 64GB+ Storage
+screen.resolution_dpi=Varies, 326 DPI or higher
+permissions.access=system_settings, storage
+security.config=auth_faceid, auth_touchid, encryption_enabled
+user.preferences=sensitivity_high, graphics_high, performance_optimized
+network.connectivity=WiFi, 4G LTE, 5G
+installed.apps=Free Fire, Discord, WhatsApp
+game.version=Free Fire 1.104.10, current_config=default
+
+# Sensitivity and View Configuration for Free Fire
+com.dts.freefireth~[sensitivity]=9000
+coding.xml=enabled
+config.xml=true
+file.xml=config_file
+
+# FREE FIRE Script Update for Enhanced Functionality
+mconfig=aimenhanced.xml
+script=aimlock.target~area="HEAD"
+configuration=dpi.screen
+
+# Version 1.104.10
+configuration=aimbot.freefireth
+mconfig=aimheadshot.freefireth
+mconfig=sensitivity.freefireth
+mconfig=aimlock.target.freefireth
+mconfig=aimfov.freefireth
+
+feature.activated.shortcut=true
+configuration.aimbot=on
+configuration.aimfov=on
+configuration.aimlock.head=on
+configuration.aimrednumbers=on
+configuration.dpi=9000
+configuration.anticheat=on
+System.web.configuration.Scripting=true
+
+system.configuration.processing=100%
+configuration.file.enhancedaim=enhancedaim_file
+file.config=config_file
+file.script=script_file
+enhancedaim.nocheat=enabled
+script.aimlock.head=enabled
+script.nobanned=enabled
+configuration.aimbot=enabled
+script.aimheadshot=enabled
+script.red.damage.numbers=enabled
+configuration.aimfov=enable
+configuration.dpiscreen=high
+configuration.60fps=true
+configuration.90hz=true
+dpi.sensitivity=9000
+screen.dpi=high
+sensitivity.macos.xml=9000
+
+feature.name=OPTIMIZATION
+feature.target=screen
+feature.description=Add entries to your Web.config file required by any .NET 3.5 AJAX.NET application.
+feature.blocks=OPTIMIZATION
+feature.config.sections=true
+type=System.Web.Configuration.ScriptingGameServiceWorkAllMode
+
+# Sensitivity Specifications
+sensitivity.X=9000.0
+sensitivity.Y=9000.0
+sensitivity.Joystick=100.0
+
+# Suppressor Specifications
+suppressor.per_shot.value=25
+suppressor.per_shot.factor=0.25
+suppressor.per_sight.value=25
+suppressor.per_sight.factor=0.25
+
+# Aim Assist Specifications
+aimAssist.value=30
+aimAssist.factor=0.3
+
+# Special Keys
+special_keys.Return=#R
+special_keys.ESC=#E
+special_keys.Tab=#T
+special_keys.Hash=#H
+
+# Free Fire Sensitivity and View Configuration
+# Default Values
+DEFAULT_VIEW=64
+DEFAULT_1XSC=80
+DEFAULT_2XSC=85
+DEFAULT_4XSC=48
+DEFAULT_8XSC=53
+DEFAULT_DPI=2457
+DEFAULT_FOV=153
+DEFAULT_TOUCH_SENSITIVITY=80
+DEFAULT_X=2304
+DEFAULT_Y=144
+
+# Custom Values
+CUSTOM_VIEW=789
+CUSTOM_1XSC=768
+CUSTOM_2XSC=840
+CUSTOM_4XSC=837
+CUSTOM_8XSC=293
+CUSTOM_DPI=1088
+CUSTOM_FOV=256
+CUSTOM_TOUCH_SENSITIVITY=720
+CUSTOM_X=304
+CUSTOM_Y=4352
+
+# Apply Custom Configuration
+VIEW=${CUSTOM_VIEW}
+1XSC=${CUSTOM_1XSC}
+2XSC=${CUSTOM_2XSC}
+4XSC=${CUSTOM_4XSC}
+8XSC=${CUSTOM_8XSC}
+DPI=${CUSTOM_DPI}
+FOV=${CUSTOM_FOV}
+TOUCH_SENSITIVITY=${CUSTOM_TOUCH_SENSITIVITY}
+X=${CUSTOM_X}
+Y=${CUSTOM_Y}
+
+# Creator Credits to @JEXEREGEDIT
+# Code owned by JEXE, give credits
+signature=JEXE
+block_version=1.104.10
